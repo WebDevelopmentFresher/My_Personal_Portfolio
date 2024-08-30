@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Progress Bar -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <li><a class="action" href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="back-img">
+        <h2>I'm Diya Chawan</h2>
+        <h3>A Front-end Developer</h3>
+    </section>
+
+    <section id="about" class="section-p1">
+        <div class="single-image">
+            <img src="D:\Apps\Portfolio\img\person2.webp" alt="">
+        </div>
+
+        <div class="about-details">
+            <img src="img/dot3.jpg" alt="">
+            <h1>About Me</h1>
+            <span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br>
+                Separated they live in Bookmarks grove right at the coast of the Semantics, a large language ocean.<br>
+
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.<br>
+                It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br>
+            </span>
+
+            <h4>HTML5</h4>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-black w3-center" style="width:85%;height:4px;"></div>
+            </div><br>
+            <h4>CSS3</h4>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-black w3-center" style="width:75%;height:4px;"></div>
+            </div><br>
+            <h4>Bootstrap</h4>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-black w3-center" style="width:70%;height:4px;"></div>
+            </div><br>
+            <h4>Design</h4>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-black w3-center" style="width:80%;height:4px;"></div>
+            </div>
+        </div>     
+    </section>
+
+    <section id="portfolio" class="section-p1">
+        <h1>My Portfolio</h1>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/port1.jpg" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port2.png" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port3.jpg" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port4.webp" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port6.png" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port7.png" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port8.jpg" class="portfolio-img">
+            </div>
+
+            <div class="pro">
+                <img src="img/port9.jpg" class="portfolio-img">
+            </div>
+
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <section id="resume" class="section-p1">
+        <div class="single-image">
+            <img src="D:\Apps\Portfolio\img\person1.webp" alt="">
+        </div>
+
+        <div class="resume-details">
+            <h1>Resume</h1><h1 class="title">Work Experience</h1>
+            <h2>Web Development Intern</h2>
+            <button>Full-Time</button>
+            <h3>CodeSpaze</h3>
+            <h4><i class="fa-regular fa-calendar"></i> August' 2024 - Present</h4>
+            <hr>
+
+            <h2>Jr. Dot Net Developer</h2>
+            <button>Full-Time</button>
+            <h3>Vohra Wound Care Physicians</h3>
+            <h4><i class="fa-regular fa-calendar"></i> January - May' 2024</h4>
+            <hr>
+            
+            <h1 class="title">Education</h1>
+            <h2>Master of Computer Applications</h2>
+            <button class="btn-cgpa">9.85 CGPA</button>
+            <h3>Indus University</h3>
+            <h4><i class="fa-regular fa-calendar"></i> July' 2022 - May' 2024</h4>
+            <hr>
+
+            <h2>Bachelor of Computer Applications</h2>
+            <button class="btn-cgpa">9.88 CGPA</button>
+            <h3>Indus University</h3>
+            <h4><i class="fa-regular fa-calendar"></i> July' 2019 - May' 2022</h4>
+        </div>
+    </section>
+
+    <section id="contact" class="section-p1">
+        <div class="single-image">
+            <img src="D:\Apps\Portfolio\img\contact.webp" alt="">
+        </div>
+
+        <div class="contact-details">
+            <h1>Contact Me</h1>
+            <h2>Name</h2>
+            <input type="text" name="" id="" maxlength="80">
+
+            <h2>Email</h2>
+            <input type="text" name="" id="" maxlength="80">
+            
+            <h2>Message</h2>
+            <textarea name="" id="" maxlength="300"></textarea>
+
+            <button>Send</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> New Wellington, California</p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Hours: </strong>10:00 - 19:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-threads"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Navigation</h4>
+            <a href="#">HTML5</a>
+            <a href="#">CSS3</a>
+            <a href="#">Javascript</a>
+            <a href="#">jQuery</a>
+            <a href="#">Bootstrap</a>
+        </div>
+
+        <div class="col">
+            <h4>Services</h4>
+            <a href="#">Web Design</a>
+            <a href="#">E-Commerce</a>
+            <a href="#">Front-end</a>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <p>Far far away, behind the word mountains,<br>far from the countries Vokalia and Consonantia,<br>there live the blind texts.</p>
+        </div>
+
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> Diya's CodeSpaze Web Development Portfolio Website</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
